@@ -27,6 +27,7 @@ document.onkeydown = function keyTapDown(event) {
 		case 72:
 			id = 'ride';
 			playDrum(id);
+			break;
 		case 74:
 			id = 'snare';
 			playDrum(id);
