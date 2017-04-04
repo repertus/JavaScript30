@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JS Drum Kit</title>
-	<!-- bower:css -->
-	<!-- endbower -->
+
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 
 	<!-- inject:css -->
 	<link rel="stylesheet" href="/css/main.css">
@@ -14,11 +15,75 @@
 
 <body>
 	<div class="container">
-		Hello
+		<div class="keys">
+			<div class="key" id="clap" data-key="65">
+				<p>CLAP</p>
+				<h1>A</h1>
+				<audio id="clapAudio">
+					<source src="./sounds/clap.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="hiHat" data-key="83" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>HIHAT</p>
+				<h1>S</h1>
+				<audio id="hiHatAudio">
+					<source src="./sounds/hihat.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="kick" data-key="68" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>KICK</p>
+				<h1>D</h1>
+				<audio id="kickAudio">
+					<source src="./sounds/kick.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="openHat" data-key="70" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>OPENHAT</p>
+				<h1>F</h1>
+				<audio id="openHatAudio">
+					<source src="./sounds/openHat.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="boom" data-key="71" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>BOOM</p>
+				<h1>G</h1>
+				<audio id="boomAudio">
+					<source src="./sounds/boom.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="ride" data-key="72" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>RIDE</p>
+				<h1>H</h1>
+				<audio id="rideAudio">
+					<source src="./sounds/ride.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="snare" data-key="74" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>SNARE</p>
+				<h1>J</h1>
+				<audio id="snareAudio">
+					<source src="./sounds/snare.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="tom" data-key="75" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>TOM</p>
+				<h1>K</h1>
+				<audio id="tomAudio">
+					<source src="./sounds/tom.wav" type="audio/wav">
+				</audio>
+			</div>
+			<div class="key" id="tink" data-key="76" onmousedown="keyTapDown(id)" onmouseup="keyTapUp(id)">
+				<p>TINK</p>
+				<h1>L</h1>
+				<audio id="tinkAudio">
+					<source src="./sounds/tink.wav" type="audio/wav">
+				</audio>
+			</div>
+		</div>
 	</div>
 
-	<!-- bower:js -->
-	<!-- endbower -->
+
+
 
 	<!-- inject:js -->
 	<script src="/js/index.js"></script>

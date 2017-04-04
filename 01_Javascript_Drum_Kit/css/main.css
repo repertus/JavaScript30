@@ -1,0 +1,60 @@
+body {
+	background-image: url("../img/barcelona.jpg");
+	/*font-family: 'Fredoka One', cursive;*/
+	font-family: 'Baloo Paaji', cursive;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	position: absolute;
+	top: 72%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.key {
+	width: 6%;
+	text-align: center;
+	color: #00235D;
+	border-style: solid;
+	border-width: medium;
+	border-color: #DEBA04;
+	border-radius: 10px;
+	display: inline-block;
+	background: -webkit-repeating-linear-gradient(0deg, rgba(255,219,8,0.6), rgba(255,219,8,0.6) 10px, rgba(211,17,69,0.6) 10px, rgba(211,17,69,0.6) 20px);
+	background: -moz-repeating-linear-gradient(0deg, rgba(255,219,8,0.6), rgba(255,219,8,0.6) 10px, rgba(211,17,69,0.6) 10px, rgba(211,17,69,0.6) 20px);
+	background: repeating-linear-gradient(90deg, rgba(255,219,8,0.6), rgba(255,219,8,0.6) 10px, rgba(211,17,69,0.6) 10px, rgba(211,17,69,0.6) 20px);
+}
+
+.keyPlayed {
+	width: 6%;
+	text-align: center;
+	color: #FCC30F;
+	border-style: solid;
+	border-width: medium;
+	border-color: #DEBA04;
+	border-radius: 10px;
+	display: inline-block;
+	background: -webkit-repeating-linear-gradient(0deg, rgba(35,57,116,0.8), rgba(35,57,116,0.8)) 10px, rgba(132,21,57,0.8) 10px, rgba(132,21,57,0.8) 20px);
+	background: -moz-repeating-linear-gradient(0deg, rgba(35,57,116,0.8), rgba(35,57,116,0.8) 10px,rgba(132,21,57,0.8) 10px, rgba(132,21,57,0.8) 20px);
+	background: repeating-linear-gradient(90deg, rgba(35,57,116,0.8), rgba(35,57,116,0.8) 10px, rgba(132,21,57,0.8) 10px, rgba(132,21,57,0.8) 20px);
+}
+
+.key h1 {
+	font-size: 2vw;
+	font-weight: normal;
+	margin: .2vw 0;
+}
+
+.keyPlayed h1 {
+	font-size: 2vw;
+	font-weight: bold;
+	margin: .2vw 0;
+}
+
+.key p,
+.keyPlayed p {
+	font-size: 0.8vw;
+}
